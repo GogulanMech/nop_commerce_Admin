@@ -19,7 +19,7 @@ class Addcustomer:
     ckhbx_tax_id="IsTaxExempt"
     txt_newsletter_xpath="//*[@id='customer-info']/div[2]/div[9]/div[2]/div/div[1]/div/div"
     lstitem_yourstorename_xpath='//*[@id="SelectedNewsletterSubscriptionStoreIds_listbox"]/li[1]'
-    lstitem_teststore2_xpath='//*[@id="f109ae46-af41-47f7-99d4-8a2d1658bcfb"]'
+    lstitem_teststore2_xpath='//*[@id="50170000-195c-4694-b77b-db1cb4729ac9"]'
     txt_customerrole_xpath="//div[@class='input-group-append input-group-required']//div[@role='listbox']"
     lstitem_administrators_xpath="//li[normalize-space()='Administrators']"
     lstitem_ForumModerators_xpath = "//li[normalize-space()='Forum Moderators']"
@@ -65,31 +65,33 @@ class Addcustomer:
         self.driver.find_element(By.XPATH, self.txt_newsletter_xpath).click()
         time.sleep(3)
         if store == "Your store name":
-            lstitem1 = self.driver.find_element(By.XPATH, self.lstitem_yourstorename_xpath).click()
+            lstitem1 = self.driver.find_element(By.XPATH, self.lstitem_yourstorename_xpath)
         elif store == "Test store 2":
-            lstitem1 = self.driver.find_element(By.XPATH, self.lstitem_teststore2_xpath).click()
+            lstitem1 = self.driver.find_element(By.XPATH, self.lstitem_teststore2_xpath)
         else:
-            lstitem1 = self.driver.find_element(By.XPATH, self.lstitem_yourstorename_xpath).click()
+            lstitem1 = self.driver.find_element(By.XPATH, self.lstitem_yourstorename_xpath)
 
         self.driver.execute_script("arguments[0].click();", lstitem1)
+        time.sleep(5)
     def set_customerroll(self, roll):
         self.driver.find_element(By.XPATH, self.txt_customerrole_xpath).click()
         time.sleep(3)
         if roll == "Administrators":
-            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_administrators_xpath).click()
+            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_administrators_xpath)
         elif roll == "ForumModerators":
-            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_ForumModerators_xpath).click()
+            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_ForumModerators_xpath)
         elif roll == "ventor":
-            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_ventor_xpath).click()
+            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_ventor_xpath)
         elif roll == "Registered":
-            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_Registered_xpath).click()
+            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_Registered_xpath)
         elif roll == "Guests":
             self.driver.find_element(By.XPATH,"//span[@title='delete']").click()
-            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_Guests_xpath).click()
+            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_Guests_xpath)
         else:
             self.driver.find_element(By.XPATH, "//span[@title='delete']").click()
-            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_Guests_xpath).click()
+            self.lstitem=self.driver.find_element(By.XPATH, self.lstitem_Guests_xpath)
         self.driver.execute_script("arguments[0].click();", self.lstitem)
+        time.sleep(5)
     def set_mangerofventor(self,text):
         Select(self.driver.find_element(By.XPATH,self.drpdown_vendor_xpath)).select_by_visible_text(text)
     def click_active(self):

@@ -4,7 +4,7 @@ from PageObjects.Login_Page import Loginpage
 from Utilities.readproperties import Readconfig
 from Utilities.customlogger import loggen
 class Test_001_login:
-    baseurl=Readconfig.get_url()
+    baseurl= Readconfig.get_url()
     username=Readconfig.get_username()
     password=Readconfig.get_password()
     logger=loggen.loggen()
