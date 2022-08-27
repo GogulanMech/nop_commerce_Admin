@@ -28,3 +28,67 @@
 08/27/2022 11:36:48 PM: INFO: Test_001_login: *****************Home page test is passed*************************
 08/27/2022 11:36:49 PM: INFO: Test_001_login: *******************Verifying Login test***********************
 08/27/2022 11:37:00 PM: INFO: Test_001_login: *******************Login test is passed***********************
+08/28/2022 12:18:48 AM: INFO: Test_003_AddCustomer: ********************Test_003_AddCustomer************************
+08/28/2022 12:19:55 AM: INFO: Test_001_login: *******************Test_001_login***********************
+08/28/2022 12:19:55 AM: INFO: Test_001_login: *******************Verifying Home Title ***********************
+08/28/2022 12:20:02 AM: INFO: Test_001_login: *****************Home page test is passed*************************
+08/28/2022 12:20:03 AM: INFO: Test_001_login: *******************Verifying Login test***********************
+08/28/2022 12:20:17 AM: INFO: Test_001_login: *******************Login test is passed***********************
+08/28/2022 12:20:25 AM: INFO: Test_002_login: *******************Test_002_login_DDT***********************
+08/28/2022 12:20:25 AM: INFO: Test_002_login: *******************Verifying Home Title ***********************
+08/28/2022 12:21:13 AM: INFO: Test_002_login: ******************* DDT test1 is pass***********************
+08/28/2022 12:21:19 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:21:25 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:21:31 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:21:34 AM: INFO: Test_002_login: *******************Login DDT test is passed***********************
+08/28/2022 12:21:34 AM: INFO: Test_002_login: *****************End of login DDT test*************************
+08/28/2022 12:21:34 AM: INFO: Test_002_login: *****************Completed Test_002_login_DDT*************************
+08/28/2022 12:22:01 AM: INFO: Test_003_AddCustomer: ********************Test_003_AddCustomer************************
+08/28/2022 12:22:11 AM: INFO: Test_003_AddCustomer: ******************Login is successful**************************
+08/28/2022 12:22:14 AM: INFO: Test_003_AddCustomer: *******************Providing customer info*************************
+08/28/2022 12:22:36 AM: INFO: Test_003_AddCustomer: ********************Saving customer info************************
+08/28/2022 12:22:36 AM: INFO: Test_003_AddCustomer: ******************Add customer Validation is started **************************
+08/28/2022 12:22:38 AM: INFO: Test_003_AddCustomer: *****************Customer info added successfully ***************************
+08/28/2022 12:22:38 AM: INFO: Test_003_AddCustomer: ********************Ending Test_003_AddCustomer************************
+08/28/2022 12:27:06 AM: INFO: Test_003_AddCustomer: ********************Test_003_AddCustomer************************
+08/28/2022 12:27:18 AM: INFO: Test_003_AddCustomer: ******************Login is successful**************************
+08/28/2022 12:27:21 AM: INFO: Test_003_AddCustomer: *******************Providing customer info*************************
+08/28/2022 12:27:36 AM: INFO: Test_003_AddCustomer: ********************Saving customer info************************
+08/28/2022 12:27:37 AM: INFO: Test_003_AddCustomer: ******************Add customer Validation is started **************************
+08/28/2022 12:27:39 AM: INFO: Test_003_AddCustomer: *****************Customer info added successfully ***************************
+08/28/2022 12:27:39 AM: INFO: Test_003_AddCustomer: ********************Ending Test_003_AddCustomer************************
+08/28/2022 12:27:41 AM: INFO: Test_003_AddCustomer: ********************Test_003_AddCustomer************************
+08/28/2022 12:27:50 AM: INFO: Test_003_AddCustomer: ******************Login is successful**************************
+08/28/2022 12:27:53 AM: INFO: Test_003_AddCustomer: *******************Providing customer info*************************
+08/28/2022 12:28:09 AM: INFO: Test_003_AddCustomer: ********************Saving customer info************************
+08/28/2022 12:28:10 AM: INFO: Test_003_AddCustomer: ******************Add customer Validation is started **************************
+08/28/2022 12:28:12 AM: INFO: Test_003_AddCustomer: *****************Customer info added successfully ***************************
+08/28/2022 12:28:12 AM: INFO: Test_003_AddCustomer: ********************Ending Test_003_AddCustomer************************
+08/28/2022 12:28:21 AM: INFO: Test_001_login: *******************Test_001_login***********************
+08/28/2022 12:28:21 AM: INFO: Test_001_login: *******************Verifying Home Title ***********************
+08/28/2022 12:28:27 AM: INFO: Test_001_login: *****************Home page test is passed*************************
+08/28/2022 12:28:29 AM: INFO: Test_001_login: *******************Verifying Login test***********************
+08/28/2022 12:28:39 AM: INFO: Test_001_login: *******************Login test is passed***********************
+08/28/2022 12:28:42 AM: INFO: Test_002_login: *******************Test_002_login_DDT***********************
+08/28/2022 12:28:42 AM: INFO: Test_002_login: *******************Verifying Home Title ***********************
+08/28/2022 12:28:49 AM: INFO: Test_001_login: *******************Test_001_login***********************
+08/28/2022 12:28:49 AM: INFO: Test_001_login: *******************Verifying Home Title ***********************
+08/28/2022 12:28:56 AM: INFO: Test_001_login: *****************Home page test is passed*************************
+08/28/2022 12:28:58 AM: INFO: Test_001_login: *******************Verifying Login test***********************
+08/28/2022 12:29:07 AM: INFO: Test_001_login: *******************Login test is passed***********************
+08/28/2022 12:29:11 AM: INFO: Test_002_login: *******************Test_002_login_DDT***********************
+08/28/2022 12:29:11 AM: INFO: Test_002_login: *******************Verifying Home Title ***********************
+08/28/2022 12:29:34 AM: INFO: Test_002_login: ******************* DDT test1 is pass***********************
+08/28/2022 12:29:40 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:29:46 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:29:52 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:29:55 AM: INFO: Test_002_login: *******************Login DDT test is passed***********************
+08/28/2022 12:29:55 AM: INFO: Test_002_login: *****************End of login DDT test*************************
+08/28/2022 12:29:55 AM: INFO: Test_002_login: *****************Completed Test_002_login_DDT*************************
+08/28/2022 12:30:29 AM: INFO: Test_002_login: ******************* DDT test1 is pass***********************
+08/28/2022 12:30:36 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:30:42 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:30:48 AM: INFO: Test_002_login: ******************* DDT test2 is pass***********************
+08/28/2022 12:30:50 AM: INFO: Test_002_login: *******************Login DDT test is passed***********************
+08/28/2022 12:30:50 AM: INFO: Test_002_login: *****************End of login DDT test*************************
+08/28/2022 12:30:50 AM: INFO: Test_002_login: *****************Completed Test_002_login_DDT*************************

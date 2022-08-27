@@ -14,7 +14,7 @@ class Test_004_SearchCustomer:
     username = Readconfig.get_username()
     password = Readconfig.get_password()
 
-    @pytest.mark.sanity
+    # @pytest.mark.sanity
     def test_by_name(self, setup):
         driver = setup
         driver.get(self.baseurl)
@@ -30,7 +30,13 @@ class Test_004_SearchCustomer:
         sc.click_search()
         time.sleep(3)
         status = sc.search_by_name("Victoria")
-        assert True == status
+        if status:
+            assert True == status
+            driver.quit()
+        else:
+            driver.save_screenshot("ScreenShoots/test_by_name.png")
+            driver.quit()
+            assert False
 
     def test_byemail(self, setup):
         driver = setup
